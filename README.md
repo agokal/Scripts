@@ -1,4 +1,3 @@
-# Scripts
 # Here are some scripts I made to make life a little easier, in no particular order.
 
 
