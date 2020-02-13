@@ -1,18 +1,16 @@
 # Scripts
+# Here are some scripts I made to make life a little easier, in no particular order.
 
-Some scripts I made to make my life a littie easier.
 
-NoSleep - Stops a Windows Machine from sleeping, without changing the systems power settings. emulates a scroll lock key press ever min (or 2 min; can't remember) until the script is stopped.
+NoSleep - Stops a Windows Machine from sleeping, without changing the systems power settings, by emulating a keyboard scroll lock key press every minute.
 
-TowerWOL.bat - WOL for my home server.
+TowerWOL.bat - WOL  (Wake on Lan) for a server. Sends a signal to a computer to power on
 
-bin/ -  directory for all my Bash script.
+bin/ -  directory for all my Bash scripts
 
-  hello-world - test script to make sure my bash envoirnment is lineked to folder correctly. prints "hello-world" to terminal
+hello-world – a test script to confirm bash environment is correctly linked to bin/ directory.
+Prints "hello-world" to terminal fi successful
   
-  JavaAuto -  compiles all .java files in present diesctory and then runs the .class file of the command line argument.
+JavaAuto -  compiles all .java files in the current working directory, then runs the newly compiled .class file of the passed though argument. 
       Ex. JavaAuto test
-          >> will copile all .java files in dir
-          javac .java
-          >> will execute the argument file
-          java test
+>> will compile all files in the current directory, and then run test
