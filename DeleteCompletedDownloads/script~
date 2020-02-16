@@ -1,0 +1,3 @@
+docker stop 7be8647e8498
+find /mnt/user/downloads/completed -mtime +1 -type d -exec rm -rv {} +;
+docker start 7be8647e8498
