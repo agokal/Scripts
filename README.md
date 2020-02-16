@@ -1,5 +1,6 @@
 # Here are some scripts I made to make life a little easier, in no particular order.
 
+DeleteCompletedDownloads - deletes completed downloads from docker container after 24 hours after completion
 
 NoSleep - Stops a Windows Machine from sleeping, without changing the systems power settings, by emulating a keyboard scroll lock key press every minute.
 
