@@ -5,11 +5,9 @@ NoSleep - Stops a Windows Machine from sleeping, without changing the systems po
 
 TowerWOL.bat - WOL  (Wake on Lan) for a server. Sends a signal to a computer to power on
 
-bin/ -  directory for all my Bash scripts
-
-hello-world – a test script to confirm bash environment is correctly linked to bin/ directory.
+bin/hello-world – a test script to confirm bash environment is correctly linked to bin/ directory.
 Prints "hello-world" to terminal fi successful
   
-JavaAuto -  compiles all .java files in the current working directory, then runs the newly compiled .class file of the passed though argument. 
+bin/JavaAuto -  compiles all .java files in the current working directory, then runs the newly compiled .class file of the passed though argument. 
       Ex. JavaAuto test
->> will compile all files in the current directory, and then run test
+      will compile all files in the current directory, and then run 'java test'
